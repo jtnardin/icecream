@@ -10,5 +10,5 @@ for i = 1:10
 	sprinkles(i) = cone(i) - 10;
 end
 
-save icecream.mat cone -append
+save icecream.mat cone sprinkles -append
 
